@@ -1,0 +1,31 @@
+@if(activeSpinner){
+<div class="content-spiner">
+  <div class="spinner-border text-danger spin-style" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+}
+
+
+<div class="thank-you-container">
+<img src="./img/logo.png" alt="">
+<p class="thakstitleone-header" [innerHTML]="sanitiza(datach?.titleThankYouHeader)"></p>
+</div>
+<div class="thank-you-container-body">
+<img class="desktop" src="./img/ch-fondo.png" alt="">
+<img class="movil" src="./img/ch-fondo-mv.png" alt="">
+<img src="./img/Contacto.png" alt="" class="contacto-thank-you">
+<p class="thakstitleone" [innerHTML]="sanitiza(datach?.thanksTitle)"></p>
+<p class="thakstitleone2" [innerHTML]="sanitiza(datach?.thanksTitle2)"></p>
+<p class="thakstitleone3" [innerHTML]="sanitiza(datach?.thanksTitle3)"></p>
+<div class="container-redes-thank-you">
+  <a href=""><img src="./img/facebook.png" alt=""></a>
+  <a href="https://www.instagram.com/concepthausmx/"><img src="./img/instagram.png" alt=""></a>
+  <a href="https://www.youtube.com/@inhausfilms2383"><img src="./img/youtube.png" alt=""></a>
+  <a href="https://www.behance.net/concepthausmx"><img src="./img/be.png" alt=""></a>
+</div>
+
+</div>
+<div class="thank-you-container-footer">
+
+</div>

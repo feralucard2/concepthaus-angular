@@ -1,0 +1,295 @@
+{
+  "menus": {
+    "title1": "NOSOTROS",
+    "title2": "NUESTRO TRABAJO",
+    "title3": "SERVICIOS",
+    "title4": "CONTACTO"
+  },
+  "section1": {
+    "title": "Somos un clúster creativo que da forma a las marcas mediante pensamiento estratégico, diseño innovador y narrativas con propósito.",
+    "title2": "Unimos estrategia, diseño y producción bajo un mismo techo. Al integrar una agencia creativa y una casa de producción publicitaria, ofrecemos a las marcas la ventaja de trabajar con un solo socio, desde el concepto hasta la ejecución.",
+    "title3": "Esta sinergia nos convierte en uno de los pocos clústeres creativos capaces de ofrecer tanto el pensamiento como la creación, de manera fluida, rápida y con la calidad de una agencia global.",
+    "button": "NOSOTROS"
+  },
+  "section2": {
+    "title": "Orgullosos de trabajar con",
+    "carouselClientes": [
+      {
+        "src": "img/carrusel3.mp4",
+        "srcMovil": "img/carrusel3_movil.mp4",
+        "alt": "Image 3",
+        "title": "CONTENT MARKETING",
+        "status": true
+      },
+      {
+        "src": "img/carrusel1.mp4",
+        "srcMovil": "img/carrusel1_movil.mp4",
+        "alt": "Image 1",
+        "title": "BRANDING",
+        "status": false
+      },
+      {
+        "src": "img/carrusel2.mp4",
+        "srcMovil": "img/carrusel2_movil.mp4",
+        "alt": "Image 2",
+        "title": "DISEÑO DE EMPAQUE",
+        "status": false
+      },
+
+      {
+        "src": "img/carrusel4.mp4",
+        "srcMovil": "img/carrusel4_movil.mp4",
+        "alt": "Image 4",
+        "title": "MEDIOS OUT OF HOME",
+        "status": false
+      },
+      {
+        "src": "img/carrusel5.mp4",
+        "srcMovil": "img/carrusel5_movil.mp4",
+        "alt": "Image 5",
+        "title": "DESARROLLO WEB",
+        "status": false
+      },
+      {
+        "src": "img/carrusel6.mp4",
+        "srcMovil": "img/carrusel6_movil.mp4",
+        "alt": "Image 6",
+        "title": "PRODUCCIÓN AUDIOVISUAL",
+        "status": false
+      },
+      {
+        "src": "img/carrusel7.mp4",
+        "srcMovil": "img/carrusel7_movil.mp4",
+        "alt": "Image 7",
+        "title": "MARKETING EXPERIENCIAL",
+        "status": false
+      }
+    ]
+  },
+  "section3": {
+    "title": "Nuestros clientes dicen",
+    "testimonials": [
+      {
+        "testimonial3": [
+          {
+            "quote": "Asociación excepcional para el desarrollo y producción de contenido.",
+            "description": "La colaboración se centró en el desarrollo de ideas y la producción fluida de contenido. El cliente valoró la disponibilidad, retroalimentación y adaptabilidad del equipo durante todo el proceso.",
+            "author": "Eduardo Limón Lozano",
+            "position": "Productor Creativo, The Walt Disney Company",
+            "status": true
+          },
+          {
+            "quote": "Estamos impresionados con su compromiso con los proyectos de nuestra empresa.",
+            "description": "Desde 2021, fungimos como agencia creativa y estratégica 360° de Getnet, consolidando su presencia en el mercado mexicano y colaborando estrechamente con el área de marketing en la gestión integral de todos sus canales de comunicación, tanto internos como externos.",
+            "author": "Luis J. Claisse",
+            "position": "Manager en Getnet por Santander",
+            "status": false
+          },
+          {
+            "quote": "La creatividad y la pertenencia fueron clave para convertir nuestras ideas en un éxito tangible.",
+            "description": "Desarrollamos una campaña 360° para el lanzamiento de Equilibrium Artri Plus bajo el concepto Cada paso cuenta, que incluyó la producción del hero video en Yucatán, materiales gráficos para dueños de mascotas y veterinarios, y estrategias digitales e influencer marketing para fortalecer la visibilidad y empatía de la marca.",
+            "author": "Esly Calzada",
+            "position": "Sr. Marketing Pet Health, Elanco",
+            "status": false
+          }
+        ],
+        "status": true
+      },
+      {
+        "testimonial3": [
+          {
+            "quote": "Me encanta la atención personalizada y el entendimiento que tienen del ADN de mi marca.",
+            "description": "El proyecto consistió en el diseño y desarrollo de su tienda en línea en Shopify, con una estructura pensada para reflejar la esencia de la marca. Además, llevamos un acompañamiento continuo en la gestión y actualización del sitio, asegurando que cada colección de temporada se integrara de forma armónica con la visión de la reconocida diseñadora mexicana.",
+            "author": "Lorena Saravia",
+            "position": "Fundadora, Lorena Saravia",
+            "status": false
+          },
+          {
+            "quote": "Su enfoque en resultados y precisión en la ejecución los convierte en un aliado clave para alcanzar nuestros objetivos.",
+            "description": "Realizamos una campaña nacional en medios OOH y digitales para impulsar el conocimiento de Credelio Plus y Credelio Plus One Tab. Además, desarrollamos una estrategia de influencer marketing con perfiles seleccionados por su creatividad en contenidos y afinidad con el público objetivo, fortaleciendo así la conexión de la marca con su comunidad.",
+            "author": "Alma Velázquez,",
+            "position": "Sr. Marketing Digital & eCommerce, Elanco",
+            "status": false
+          },
+          {
+            "quote": "Nos sentimos valorados, ya que demuestran un interés genuino en nuestro negocio.",
+            "description": "Implementamos campañas de Performance Marketing enfocadas en la generación de leads de calidad, ofreciendo una solución integral para aumentar su porcentaje de cierres a través de una inversión inteligente en medios digitales.",
+            "author": "Andrea Corral",
+            "position": "Responsable de Comunicación en AP Futuro",
+            "status": false
+          }
+        ],
+        "status": false
+      },
+      {
+        "testimonial3": [
+          {
+            "quote": "Es increíble trabajar con ellos gracias a sus ideas, estrategia e implementación.",
+            "description": "Entregamos campañas galardonadas y globales con creatividad y eficiencia a través de colaboraciones sólidas con organizaciones de entretenimiento.",
+            "author": "Anónimo",
+            "position": "Jefe de Publicidad y Ventas, Organización de Entretenimiento",
+            "status": false
+          },
+          {
+            "quote": "ConceptHaus se destaca por comprender las necesidades del cliente, gracias a su equipo amplio y capacitado.",
+            "description": "Desarrollamos el Branding de Sidero Arquitectura, un despacho de arquitectos emergente que encontró en nosotros el partner ideal para darle vida a la identidad corporativa que buscaban para reflejar su estilo arquitectónico. ",
+            "author": "Rogelio Garza",
+            "position": "Arquitecto en Sidēro Arquitectura",
+            "status": false
+          }
+        ],
+        "status": false
+      }
+    ]
+  },
+  "section4": {
+    "title": "Servicios",
+    "services": [
+      {
+        "title": "BRANDING",
+        "description": "Realizamos análisis de proyectos, desarrollamos propuestas de identidad gráfica y aplicaciones de marca, entregando manuales impresos y archivos digitales. Ofrecemos planes personalizados para cada proyecto, que incluyen lineamientos gráficos y de comunicación que fortalecen la identidad de tu marca.",
+        "img": "./img/branding.mp4",
+        "status": true
+      },
+      {
+        "title": "PACKAGING",
+        "description": "Analizamos tu proyecto, diseñamos conceptos de empaque únicos y entregamos aplicaciones de marca con manuales impresos y archivos digitales. Cada plan está personalizado e incluye lineamientos gráficos y de comunicación que refuerzan la identidad de tu marca.",
+        "img": "./img/Packaging.mp4",
+        "status": false
+      },
+      {
+        "title": "CONTENT MARKETING",
+        "description": "Creamos estrategias de marketing de contenidos personalizadas que se alinean con los objetivos de tu marca. Desde la planificación hasta la producción, desarrollamos contenido atractivo y con valor que aumenta la visibilidad, construye comunidad y fortalece tu marca en plataformas digitales.",
+        "img": "./img/Marketing.mp4",
+        "status": false
+      },
+      {
+        "title": "DESARROLLO WEB",
+        "description": "Ofrecemos soluciones de TI personalizadas para optimizar tus operaciones y apoyar el crecimiento de tu negocio. Desde el análisis de sistemas hasta la implementación y el mantenimiento, nuestros servicios garantizan una tecnología segura, eficiente y escalable, adaptada a tus necesidades.",
+        "img": "./img/BannersIT.mp4",
+        "status": false
+      },
+      {
+        "title": "CAMPAÑAS DE MEDIOS 360",
+        "description": "Desarrollamos estrategias de medios 360 priorizando la presencia de tu marca en ubicaciones y canales de alto impacto combinando creatividad, segmentación y tecnología. A través de una planeación integral, reforzamos el posicionamiento de las marcas generando resultados medibles.",
+        "img": "./img/Out-Of-Home.mp4",
+        "status": false
+      },
+      {
+        "title": "MARKETING EXPERIENCIAL",
+        "description": "Diseñamos experiencias de marca inmersivas que generan conexiones auténticas con el público. Desde activaciones creativas hasta eventos en vivo y entornos interactivos, desarrollamos campañas que despiertan emociones, fortalecen la lealtad y convierten cada interacción en un recuerdo memorable.",
+        "img": "./img/Marketing.mp4",
+        "status": false
+      },
+      {
+        "title": "PRODUCCIÓN AUDIOVISUAL",
+        "description": "Ofrecemos producción audiovisual de principio a fin, desde el desarrollo del concepto y la escritura de guiones hasta la filmación, edición y postproducción. Nuestro equipo crea contenido visual de alta calidad que comunica eficazmente tu mensaje y eleva tu marca.",
+        "img": "./img/Audiovisual.mp4",
+        "status": false
+      }
+    ]
+  },
+  "form": {
+    "title": "Acentuémoslo",
+    "name": "Nombre completo",
+    "email": "Email",
+    "number": "Número de teléfono",
+    "business": {
+      "title": "¿Cuál es el giro de tu empresa?",
+      "options": [
+        {
+          "value": "",
+          "label": "Selecciona una opción"
+        },
+        {
+          "value": "Comida y Bebida",
+          "label": "Comida y Bebida"
+        },
+        {
+          "value": "Finanzas y Seguros",
+          "label": "Finanzas y Seguros"
+        },
+        {
+          "value": "Hospitalidad y Restaurantes",
+          "label": "Hospitalidad y Restaurantes"
+        },
+        {
+          "value": "Bienes Raíces",
+          "label": "Bienes Raíces"
+        },
+        {
+          "value": "Entretenimiento General",
+          "label": "Entretenimiento General"
+        },
+        {
+          "value": "Automotriz",
+          "label": "Automotriz"
+        },
+        {
+          "value": "Otro",
+          "label": "Otro"
+        }
+      ]
+    },
+    "help": {
+      "title": "¿Cómo podemos ayudarte?",
+      "options": [
+        {
+          "value": "",
+          "label": "Selecciona una opción"
+        },
+        {
+          "value": "Branding",
+          "label": "Branding"
+        },
+        {
+          "value": "Diseño de Empaques",
+          "label": "Diseño de Empaques"
+        },
+        {
+          "value": "Estrategia de Marketing 360",
+          "label": "Estrategia de Marketing 360"
+        },
+        {
+          "value": "Producción Audiovisual",
+          "label": "Producción Audiovisual"
+        },
+        {
+          "value": "Contenido y Marketing Digital",
+          "label": "Contenido y Marketing Digital"
+        },
+        {
+          "value": "Campañas de Medios 360",
+          "label": "Campañas de Medios 360"
+        },
+        {
+          "value": "Desarrollo Web",
+          "label": "Desarrollo Web"
+        },
+        {
+          "value": "Influencer Marketing",
+          "label": "Influencer Marketing"
+        }
+      ]
+    },
+    "button": "Enviar"
+  },
+  "footer": {
+    "title1": "Acentuando cada detalle,",
+    "title2": "en todas partes",
+    "text1": "2025 ConceptHaus. Todos los derechos reservados.",
+    "text2": "Aviso de Privacidad",
+    "text3": "Terminos y Condiciones"
+  },
+  "aboutTitle": "Somos creativos,<br/> <strong>y lo acentuamos todo.</strong>",
+  "aboutTitle2": "Quiénes somos",
+  "aboutsubTitle2": "Somos un Clúster Creativo especializado en branding y comunicación, con más de 14 años de experiencia y más de 400 marcas en nuestro portafolio. Diseñamos historias de marca memorables alineadas con su esencia, conectando a nuestros clientes con su audiencia de forma relevante. Nuestro enfoque innovador garantiza que cada marca no solo destaque, sino que resuene profundamente con su mercado objetivo.",
+  "aboutfotterTitle2": "Acentuámos todo.",
+  "aboutNumberCoworkers": "Colaboradores",
+  "aboutNumberProyects": "Proyectos",
+  "aboutNumberClients": "Clientes activos",
+  "thanksTitle": "En <strong>ConceptHaus</strong>, las ideas fluyen y la creatividad nunca se apaga.",
+  "thanksTitle2": "En breve recibirás un correo por parte de nuestro equipo de consultores para agendar una llamada.",
+  "thanksTitle3": "<strong>Mientras tanto, sigue conectado con nuestro trabajo: </strong>",
+  "titleThankYouHeader": "¡Gracias por hacer<br><strong>contacto con nosotros!</strong>"
+}

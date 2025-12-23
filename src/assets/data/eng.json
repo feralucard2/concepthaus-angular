@@ -1,0 +1,300 @@
+{
+  "menus": {
+    "title1": "ABOUT",
+    "title2": "FEATURED WORK",
+    "title3": "SERVICES",
+    "title4": "CONTACT"
+  },
+  "section1": {
+    "title": "We are a creative cluster, shaping brands through strategic thinking, innovative design, and purposeful storytelling.",
+    "title2": "We are a creative cluster that unites strategy, design, and production under one roof. By integrating a creative agency and an ad production house, we give brands the rare advantage of working with a single partner, from concept to execution.",
+    "title3": "This synergy makes us one of the few creative clusters able to deliver both the thinking and the making, seamlessly, fast, and with the quality of a global agency.",
+    "button": "ABOUT US"
+  },
+  "section2": {
+    "title": "Proud to work with",
+    "carouselClientes": [
+      {
+        "src": "img/carrusel3.mp4",
+        "srcMovil": "img/carrusel3_movil.mp4",
+        "alt": "Image 3",
+        "title": "CONTENT MARKETING",
+        "status": true
+      },
+      {
+        "src": "img/carrusel1.mp4",
+        "srcMovil": "img/carrusel1_movil.mp4",
+        "alt": "Image 1",
+        "title": "BRANDING",
+        "status": false
+      },
+      {
+        "src": "img/carrusel2.mp4",
+        "srcMovil": "img/carrusel2_movil.mp4",
+        "alt": "Image 2",
+        "title": "PACKAGING",
+        "status": false
+      },
+
+      {
+        "src": "img/carrusel4.mp4",
+        "srcMovil": "img/carrusel4_movil.mp4",
+        "alt": "Image 4",
+        "title": "OUT OF HOME MEDIA",
+        "status": false
+      },
+      {
+        "src": "img/carrusel5.mp4",
+        "srcMovil": "img/carrusel5_movil.mp4",
+        "alt": "Image 5",
+        "title": "IT SOLUTIONS",
+        "status": false
+      },
+      {
+        "src": "img/carrusel6.mp4",
+        "srcMovil": "img/carrusel6_movil.mp4",
+        "alt": "Image 6",
+        "title": "AUDIOVISUAL PRODUCTION",
+        "status": false
+      },
+      {
+        "src": "img/carrusel7.mp4",
+        "srcMovil": "img/carrusel7_movil.mp4",
+        "alt": "Image 7",
+        "title": "EXPERIENTIAL MARKETING",
+        "status": false
+      }
+    ]
+  },
+  "section3": {
+    "title": "Our clients say",
+    "testimonials": [
+      {
+        "testimonial3": [
+          {
+            "quote": "Exceptional partnership for content development and production.",
+            "description": "The collaboration centered on idea development and smooth content production. The client valued the team’s availability, feedback, and adaptability throughout.",
+            "author": "Eduardo Limón Lozano",
+            "position": "Creative Producer at The Walt Disney Company",
+            "status": true
+          },
+          {
+            "quote": "We are impressed with their commitment to our company projects.",
+            "description": "Since 2021, we have served as Getnet’s 360° creative & strategic agency, strengthening the brand’s presence in the Mexican market and working closely with the marketing team to manage all internal and external communication channels.",
+            "author": "Luis J. Claisse",
+            "position": "Manager at Getnet by Santander",
+            "status": false
+          },
+          {
+            "quote": "Creativity and connection with the team were key to transforming our ideas into real impact.",
+            "description": "We developed a 360° campaign for the launch of Equilibrium Artri Plus under the concept Cada paso cuenta. The project included the production of the hero video in Yucatán, graphic materials for pet owners and veterinarians, and digital and influencer marketing strategies to strengthen the brand’s visibility and empathy.",
+            "author": "Esly Calzada,",
+            "position": "Sr. Marketing Pet Health at Elanco",
+            "status": false
+          }
+        ],
+        "status": true
+      },
+      {
+        "testimonial3": [
+          {
+            "quote": "I love the personalized attention and how deeply they understand my brand’s DNA.",
+            "description": "The project involved the design and development of an online store on Shopify, structured to reflect the brand’s essence. We also provided ongoing support in managing and updating the site, ensuring that each seasonal collection was seamlessly integrated with the vision of the renowned Mexican designer.",
+            "author": "Lorena Saravia,",
+            "position": "Founder, Lorena Saravia",
+            "status": false
+          },
+          {
+            "quote": "Their focus on results and precision in execution make them a key ally in achieving our goals.",
+            "description": "We carried out a national OOH and digital media campaign to boost awareness of Credelio Plus and Credelio Plus One Tab. In addition, we developed an influencer marketing strategy featuring profiles selected for their creativity and strong alignment with the target audience, strengthening the brand’s connection with its community.",
+            "author": "Alma Velázquez",
+            "position": "Sr. Marketing Digital & eCommerce at Elanco",
+            "status": false
+          },
+          {
+            "quote": "We feel valued, as they show genuine interest in our business.",
+            "description": "We developed the branding for Sidereo Arquitectura, an emerging architecture firm that found in us the ideal partner to bring to life the corporate identity that truly reflects their architectural style.",
+            "author": "Andrea Corral",
+            "position": "Communications Officer at AP Futuro",
+            "status": false
+          }
+        ],
+        "status": false
+      },
+      {
+        "testimonial3": [
+          {
+            "quote": "It’s amazing to work with them due to their ideas, strategy, and implementation.",
+            "description": "We developed the branding for Sidereo Arquitectura, an emerging architecture firm that found in us the ideal partner to bring to life the corporate identity that truly reflects their architectural style.",
+            "author": "Anonymous",
+            "position": "Head of Ad & Sales, Entertainment Organization",
+            "status": false
+          },{
+            "quote": "ConceptHaus excels at understanding client needs, thanks to their large, skilled team.",
+            "description": "We developed the branding for Sidereo Arquitectura, an emerging architecture firm that found in us the ideal partner to bring to life the corporate identity that truly reflects their architectural style.",
+            "author": "Rogelio Garza",
+            "position": "Architect at Sidéreo Arquitectura",
+            "status": false
+          }
+        ],
+        "status": false
+      }
+
+    ]
+  },
+  "section4": {
+    "title": "Services",
+    "services": [
+      {
+        "title": "BRANDING",
+        "description": "We conduct project analysis, develop graphic identity proposals, and brand applications, providing printed manuals and digital files.We offer tailored plans for each project, including graphic and communication guidelines that strengthen your brand’s identity.",
+        "img": "./img/branding.mp4",
+        "status": true
+      },
+      {
+        "title": "PACKAGING",
+        "description": "We analyze your project, design unique packaging concepts, and deliver brand applications with printed manuals and digital files. Each plan is customized to include graphic and communication guidelines that reinforce your brand’s identity.",
+        "img": "./img/Packaging.mp4",
+        "status": false
+      },
+      {
+        "title": "CONTENT MARKETING",
+        "description": "We craft tailored content marketing strategies that align with your brand goals. From planning to production, we create engaging, value-driven content that boosts visibility, builds community, and strengthens your brand across digital platforms.",
+        "img": "./img/Marketing-content.mp4",
+        "status": false
+      },
+      {
+        "title": "IT SOLUTIONS",
+        "description": "We provide customized IT solutions to streamline your operations and support business growth. From system analysis to implementation and maintenance, our services ensure secure, efficient, and scalable technology tailored to your needs.",
+        "img": "./img/BannersIT.mp4",
+        "status": false
+      },
+      {
+        "title": "OUT OF HOME MEDIA",
+        "description": "We develop out-of-home media strategies that combine creativity, targeting, and technology. From selecting strategic locations to on-the-ground activation, we design high-impact campaigns that connect with audiences on the move, strengthen brand positioning, and deliver measurable results.",
+        "img": "./img/Out-Of-Home.mp4",
+        "status": false
+      },
+      {
+        "title": "EXPERIENTIAL MARKETING",
+        "description": "We design immersive brand experiences that create authentic connections with audiences. From creative activations to live events and interactive environments, we develop campaigns that spark emotion, build loyalty, and turn every interaction into a memorable moment.",
+        "img": "./img/Marketing.mp4",
+        "status": false
+      },
+      {
+        "title": "AUDIOVISUAL PRODUCTION",
+        "description": "We offer end-to-end audiovisual production, from concept development and scripting to filming, editing, and post-production. Our team creates high-quality visual content that effectively communicates your message and elevates your brand.",
+        "img": "./img/Audiovisual.mp4",
+        "status": false
+      }
+    ]
+  },
+  "form": {
+    "title": "Let's accent it",
+    "name": "Full Name",
+    "email": "Email",
+    "number": "Phone number",
+    "business": {
+      "title": "What's your business about?",
+      "options": [
+        {
+          "value": "",
+          "label": "Select an option"
+        },
+        {
+          "value": "Food and Beverage",
+          "label": "Food and Beverage"
+        },
+        {
+          "value": "Finance and Insurance",
+          "label": "Finance and Insurance"
+        },
+        {
+          "value": "Hospitality and Restaurants",
+          "label": "Hospitality and Restaurants"
+        },
+        {
+          "value": "Real Estate",
+          "label": "Real Estate"
+        },
+        {
+          "value": "General Entertainment",
+          "label": "General Entertainment"
+        },
+        {
+          "value": "Automotive",
+          "label": "Automotive"
+        },
+        {
+          "value": "Other",
+          "label": "Other"
+        }
+      ]
+    },
+    "help": {
+      "title": "How can we help you?",
+      "options": [
+        {
+          "value": "",
+          "label": "Select an option"
+        },
+        {
+          "value": "Branding",
+          "label": "Branding"
+        },
+        {
+          "value": "Packaging Design",
+          "label": "Packaging Design"
+        },
+        {
+          "value": "Creative Campaigns",
+          "label": "Creative Campaigns"
+        },
+        {
+          "value": "360 Marketing Strategy",
+          "label": "360 Marketing Strategy"
+        },
+        {
+          "value": "AV Production",
+          "label": "AV Production"
+        },
+        {
+          "value": "Content & Digital Marketing",
+          "label": "Content & Digital Marketing"
+        },
+        {
+          "value": "360 Media Campaigns",
+          "label": "360 Media Campaigns"
+        },
+        {
+          "value": "Web Development",
+          "label": "Web Development"
+        },
+        {
+          "value": "Influencer Marketing",
+          "label": "Influencer Marketing"
+        }
+      ]
+    },
+    "button": "Submit"
+  },
+  "footer": {
+    "title1": "Accenting",
+    "title2": "everything, everywhere.",
+    "text1": " 2025 ConceptHaus. All rights reserved.",
+    "text2": "Privacy Policy",
+    "text3": "Terms of Service"
+  },
+  "aboutTitle": "We are <strong>creative</strong> people,<br/> <strong>Accenting everything.</strong>",
+  "aboutTitle2": "Who we are",
+  "aboutsubTitle2": "We are a Creative Cluster specialized in branding and communication, with over 14 years of experience and a portfolio of more than 400 brands. We craft memorable brand stories that are true to their essence, connecting our clients with their audiences in relevant ways. Our innovative approach ensures each brand not only stands out but also resonates deeply with its target market.",
+  "aboutfotterTitle2": "We accent everything.",
+  "aboutNumberCoworkers": "Coworkers",
+  "aboutNumberProyects": "Projects",
+  "aboutNumberClients": "Active clients",
+  "thanksTitle": "At <strong>ConceptHaus</strong>, ideas flow and <br> creativity never switches off.",
+  "thanksTitle2": "You'll soon get an email from our consulting team to schedule a call.",
+  "thanksTitle3": "<strong>In the meantime, stay plugged in:</strong> ",
+  "titleThankYouHeader": "Thanks for<br><strong>making contact!</strong>"
+
+}

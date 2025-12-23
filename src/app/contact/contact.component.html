@@ -1,0 +1,259 @@
+
+
+
+@if(activeSpinner){
+<div class="content-spiner">
+  <div class="spinner-border text-danger spin-style" role="status">
+    <span class="visually-hidden">Loading...</span>
+  </div>
+</div>
+}
+
+<header>
+  <!-- Header versión móvil -->
+  <div class="mobile-header d-lg-none">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo móvil -->
+        @if(!isactive){
+        <div class="logo-mobile">
+          <a href="/index.html">
+            <img src="./img/logoch.png" alt="CH Logo" />
+          </a>
+        </div>
+        }
+
+        <!-- Botón hamburguesa -->
+        <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarMobile"
+          aria-controls="navbarMobile" aria-expanded="false" aria-label="Toggle navigation" (click)="toggleMenu()">
+          <div class="hamburger-lines">
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+            <span class="hamburger-line"></span>
+          </div>
+        </button>
+      </div>
+    </div>
+
+    <!-- Menú desplegable móvil -->
+    @if(isactive){
+    <div class="collapse navbar-collapse" id="navbarMobile">
+      <img style="    width: 39vw; position: relative;left: 28vw;" src="/img/logoch.png" alt="ConceptHaus Logo"
+        class=" d-lg-block" />
+      <ul class="navbar-nav">
+        <li class="nav-item"><a class="nav-link" href="/about-us">{{datach?.menus?.title1}}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#featured-work">{{datach?.menus?.title2}}</a></li>
+        <li class="nav-item"><a class="nav-link" href="#Services">{{datach?.menus?.title3}}</a></li>
+        <li class="nav-item"><a class="nav-link active-ch" href="/contact">{{datach?.menus?.title4}}</a></li>
+        <li class="nav-item" style="display: inline-flex;">
+          <span style="cursor: pointer; width: 41vw;" class="nav-link" (click)="getEsp()"
+            [ngClass]="lenguaje === 'ESP' ? 'active-ch' : 'noactive'">ESP</span>
+          <div style="    width: 10px; border-right: solid 1px;"></div>
+          <span style="cursor: pointer; width: 11vw;" class="nav-link" (click)="getEng()"
+            [ngClass]="lenguaje === 'ENG' ? 'active-ch' : 'noactive'">ENG</span>
+        </li>
+
+      </ul>
+    </div>
+    }
+
+  </div>
+
+  <!-- Header versión desktop (mantener el existente) -->
+  <div class="desktop-header ">
+    <div class="container">
+      <div class="header-content">
+        <!-- Logo desktop -->
+        <div class="logo">
+          <a href="/">
+            <img src="/img/logoch.png" alt="ConceptHaus Logo" class=" d-lg-block" />
+          </a>
+        </div>
+
+        <!-- Menú desktop -->
+        <nav class="navbar navbar-expand-lg">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="/about-us">{{datach?.menus?.title1}}</a></li>
+            <li class="nav-item"><a class="nav-link" href="#featured-work">{{datach?.menus?.title2}}</a></li>
+            <li class="nav-item"><a class="nav-link" href="#Services">{{datach?.menus?.title3}}</a></li>
+            <li class="nav-item"><a class="nav-link active-ch" href="/contact">{{datach?.menus?.title4}}</a>
+            </li>
+            <li class="nav-item lenguage esp"><span style="    cursor: pointer;" class="nav-link" (click)="getEsp()"
+                [ngClass]="lenguaje === 'ESP' ? 'active-ch' : 'noactive'">ESP</span>
+            </li>
+            <li class="nav-item lenguage eng"><span style="    cursor: pointer;" class="nav-link" (click)="getEng()"
+                [ngClass]="lenguaje === 'ENG' ? 'active-ch' : 'noactive'">ENG</span>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </div>
+</header>
+
+
+
+<!-- Formulario -->
+<section class="contact-section">
+  <div class="form-content">
+    <h2 class="form-title movil-title-form" style="    margin-top: 11vw;">{{datach?.form?.title}}</h2>
+    <div class="form-container">
+      <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="contact-form">
+        <label for="name">{{datach?.form?.name}}</label>
+        <input
+          type="text"
+          id="name"
+          formControlName="name"
+          required
+          [ngClass]="{'input-error': contactForm.get('name')?.invalid && contactForm.get('name')?.touched}"
+        />
+
+        <label for="email">{{datach?.form?.email}}</label>
+        <input
+          type="email"
+          id="email"
+          formControlName="email"
+          required
+          [ngClass]="{'input-error': contactForm.get('email')?.invalid && contactForm.get('email')?.touched}"
+        />
+
+        <label for="phone">{{datach?.form?.number}}</label>
+        <input
+          type="tel"
+          id="phone"
+          formControlName="phone"
+          required
+          [ngClass]="{'input-error': contactForm.get('phone')?.invalid && contactForm.get('phone')?.touched}"
+        />
+
+        <label for="business">{{datach?.form?.business?.title}}</label>
+        <select
+          id="business"
+          formControlName="business"
+          required
+          [ngClass]="{'input-error': contactForm.get('business')?.invalid && contactForm.get('business')?.touched}"
+        >
+          @for(options of datach?.form?.business?.options; track $index) {
+            <option value="{{options.value}}">{{options.label}}</option>
+          }
+        </select>
+
+        <label for="help">{{datach?.form?.help?.title}}</label>
+        <select
+          id="help"
+          formControlName="help"
+          required
+          [ngClass]="{'input-error': contactForm.get('help')?.invalid && contactForm.get('help')?.touched}"
+        >
+          @for(options of datach?.form?.help?.options; track $index) {
+            <option value="{{options.value}}">{{options.label}}</option>
+          }
+        </select>
+        <button type="submit" >{{datach?.form?.button}}</button>
+      </form>
+
+    </div>
+  </div>
+
+</section>
+
+
+
+<!-- footer.html -->
+
+<footer class="footer">
+  <!-- Versión Desktop -->
+  <div class="footer-container">
+    <!-- Main content section -->
+    <div class="footer-content">
+      <!-- Title section with its own container -->
+      <div class="footer-header">
+        <h1 class="footer-title">
+          {{datach?.footer?.title1}} <br />
+          <strong>{{datach?.footer?.title2}}</strong>
+        </h1>
+      </div>
+
+      <!-- Links section with its own container -->
+      <div class="footer-info">
+        <ul class="footer-links">
+          <li>&copy; {{datach?.footer?.text1}}</li>
+          <li><a href="/avisolegal">{{datach?.footer?.text2}}</a></li>
+          <!--<li>{{datach?.footer?.text3}}</li>-->
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-right">
+
+      <!-- Social Icons -->
+      <div class="social-icons">
+        <a href="https://www.linkedin.com/company/concept-haus/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://www.youtube.com/@inhausfilms2383" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-youtube"></i>
+        </a>
+        <a href="https://www.instagram.com/concepthausmx/" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-instagram"></i>
+        </a>
+        <a href="https://www.behance.net/concepthausmx" target="_blank" rel="noopener noreferrer">
+          <i class="fab fa-behance"></i>
+        </a>
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="footer-nav">
+        <ul>
+          <li><a href="/about-us">{{datach?.menus?.title1}}</a></li>
+          <li><a href="index.html#featured-work">{{datach?.menus?.title2}}</a></li>
+          <li><a href="index.html#Services">{{datach?.menus?.title3}}</a></li>
+          <li><a href="/contact">{{datach?.menus?.title4}}</a></li>
+        </ul>
+      </nav>
+
+
+    </div>
+  </div>
+
+  <!-- Versión Mobile -->
+  <div class="footer-container-mobile">
+    <div class="footer-left">
+      <h1 class="footer-title">
+        {{datach?.footer?.title1}} <br />
+        <strong>{{datach?.footer?.title2}}</strong>
+      </h1>
+    </div>
+
+    <div class="social-icons">
+      <a href="https://www.linkedin.com/company/concept-haus/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-linkedin"></i>
+      </a>
+      <a href="https://www.youtube.com/@inhausfilms2383" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.instagram.com/concepthausmx/" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.behance.net/concepthausmx" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-behance"></i>
+      </a>
+    </div>
+
+    <!-- Navigation Links -->
+    <nav class="footer-nav">
+      <ul>
+        <li><a href="/about-us">{{datach?.menus?.title1}}</a></li>
+        <li><a href="index.html#featured-work">{{datach?.menus?.title2}}</a></li>
+        <li><a href="index.html#Services">{{datach?.menus?.title3}}</a></li>
+        <li><a href="/contact">{{datach?.menus?.title4}}</a></li>
+      </ul>
+    </nav>
+
+    <ul class="footer-links">
+      <li>{{datach?.footer?.text1}}</li>
+      <li><a href="/avisolegal">{{datach?.footer?.text2}}</a></li>
+      <<!--<li>{{datach?.footer?.text3}}</li>-->
+    </ul>
+  </div>
+</footer>

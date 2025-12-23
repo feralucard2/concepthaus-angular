@@ -1,0 +1,141 @@
+.diagonal-section{
+  .carousel-inner {
+       position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 40vw;
+}
+  .style-carousel-ch-next{
+      width: 2vw;
+      height: 3vw;
+      position: absolute;
+      left: 17vw;
+      top: 8vw;
+      opacity: 1;
+      z-index: 99;
+      .carousel-control-next-icon {
+          background-image: url(/img/SiguienteDerecha.png);
+          background-size: contain;
+          background-repeat: no-repeat;
+          background-position: center;
+          width: 4vw;
+          height: 4vw;
+      }
+
+  }
+
+
+  .style-carousel-ch-pre{
+      width: 2vw;
+      height: 3vw;
+      position: absolute;
+      left: 10vw;
+      top: 8vw;
+      opacity: 1;
+      z-index: 99;
+
+      .carousel-control-prev-icon {
+        background-image: url(/img/SiguienteIzquierda.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 4vw;
+          height: 4vw;
+      }
+
+
+  }
+
+  .services-title{
+    position: absolute;
+    left: 10vw;
+    top: 18vw;
+    font-size: 2.4vw;
+    font-weight: 700;
+    color: #E43D30;
+  }
+
+  .services-subtitle{
+       width: 31vw;
+    position: absolute;
+    left: 10vw;
+    top: 24vw;
+    font-size: 1.5vw;
+    line-height: 1.7vw;
+    color: #4A4F54;
+  }
+
+}
+
+.gif-container{
+       width: 50vw;
+    position: absolute;
+    left: 50vw;
+    top: 0vw;
+    display: inline-block;
+    video{
+      width: 100%;
+      height: 40vw;
+    }
+}
+
+.number-one{
+      left: 10vw;
+    position: relative;
+}
+
+.text-number-one{
+    position: relative!important;
+    left: 10vw!important;
+}
+
+.number-three{
+    position: relative;
+    left: -12vw;
+}
+
+.text-number-three{
+    position: relative;
+    left: -12vw;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+  .statistic-number {
+       font-size: 9vw!important;
+    font-weight: bold!important;
+    margin-top: 0vw!important;
+  }
+
+  .statistic-label {
+    font-size: 4vw!important;
+    margin: -1vw 0 3vw;
+    font-weight: normal;
+  }
+
+  .number-one {
+    left: 1vw !important;
+  }
+
+  .text-number-one{
+    left: 1vw !important;
+  }
+
+  .number-three{
+      left: -2vw !important;
+  }
+
+  .text-number-three {
+    left: -2vw !important;
+  }
+}
+
+
+

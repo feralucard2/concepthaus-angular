@@ -1,0 +1,48 @@
+.input-error {
+  border: 2px solid #e43d30 !important;
+}
+
+
+.form-title {
+    font-size: 3.3vw !important;
+    text-align: left;
+    margin-left: 10vw !important;
+    color: #333;
+    line-height: 1.2 !important;
+    margin-bottom: 3vw !important;
+    position: relative;
+    margin-top: 10vw !important;
+    font-weight: 500 !important;
+}
+
+
+@media screen and (max-width: 768px) {
+ .movil-title-form{
+      color: #E43D30 !important;
+    left: 17vw;
+}
+
+.form-title {
+       font-size: 6.3vw !important;
+    text-align: left;
+    margin-left: -6vw !important;
+    color: #333;
+    line-height: 1.2 !important;
+    margin-bottom: 3vw !important;
+    position: relative;
+    margin-top: 15vw !important;
+    font-weight: 500 !important;
+}
+
+.contact-form {
+        display: flex !important
+;
+        flex-direction: column !important;
+        width: 76vw !important;
+        padding-right: 0px !important;
+        left: 0vw !important;
+        position: relative !important;
+        margin-top: 1vw;
+    }
+
+}
