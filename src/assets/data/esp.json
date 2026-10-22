@@ -3,7 +3,8 @@
     "title1": "NOSOTROS",
     "title2": "NUESTRO TRABAJO",
     "title3": "SERVICIOS",
-    "title4": "CONTACTO"
+    "title4": "CONTACTO",
+    "title5": "BLOG"
   },
   "section1": {
     "title": "Somos un clúster creativo que da forma a las marcas mediante pensamiento estratégico, diseño innovador y narrativas con propósito.",
@@ -291,5 +292,17 @@
   "thanksTitle": "En <strong>ConceptHaus</strong>, las ideas fluyen y la creatividad nunca se apaga.",
   "thanksTitle2": "En breve recibirás un correo por parte de nuestro equipo de consultores para agendar una llamada.",
   "thanksTitle3": "<strong>Mientras tanto, sigue conectado con nuestro trabajo: </strong>",
-  "titleThankYouHeader": "¡Gracias por hacer<br><strong>contacto con nosotros!</strong>"
+  "titleThankYouHeader": "¡Gracias por hacer<br><strong>contacto con nosotros!</strong>",
+  "blog": {
+    "heroTitle": "Accenting <strong>everything.</strong>",
+    "heroSubtitle": "Ideas, tendencias y estrategias<br>para marcas que avanzan.",
+    "indexTitle": "Índice de blogs",
+    "allCategories": "Todos",
+    "readMore": "Leer más",
+    "readArticle": "Leer artículo",
+    "youMayAlsoLike": "También te puede interesar",
+    "readingTime": "minutos de lectura",
+    "noPosts": "Aún no hay artículos en esta categoría.",
+    "breadcrumb": "BLOG"
+  }
 }

@@ -1,0 +1,286 @@
+.blog-page {
+  margin-top: 8vw;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Hero */
+.blog-hero {
+  display: flex;
+  min-height: 34vw;
+
+  .blog-hero-text {
+    width: 50%;
+    background-color: #E43D30;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 4vw;
+  }
+
+  .blog-hero-title {
+    font-size: 3.6vw;
+    font-weight: 400;
+    margin-bottom: 2vw;
+
+    ::ng-deep strong {
+      font-weight: 700;
+    }
+  }
+
+  .blog-hero-subtitle {
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 1.25;
+    margin: 0;
+  }
+
+  .blog-hero-image {
+    width: 50%;
+    background-color: #34424b;
+    overflow: hidden;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+}
+
+/* Índice + listado */
+.blog-content {
+  display: flex;
+  align-items: flex-start;
+  padding: 5vw 9vw 6vw 11vw;
+  gap: 4vw;
+}
+
+.blog-index {
+  width: 20vw;
+  flex-shrink: 0;
+
+  .blog-index-title {
+    color: #E43D30;
+    font-size: 2.6vw;
+    font-weight: 700;
+    letter-spacing: .15vw;
+    margin-bottom: 2.5vw;
+    padding-bottom: 2vw;
+    position: relative;
+
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 7.5vw;
+      height: 1px;
+      background-color: #E43D30;
+    }
+  }
+
+  .blog-index-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    a {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: .6vw .8vw;
+      margin-left: -.8vw;
+      width: 20vw;
+      border-radius: .4vw;
+      color: #000000;
+      font-size: 1.45vw;
+      text-decoration: none;
+      transition: background-color .2s ease;
+
+      &:hover,
+      &.active {
+        background-color: #fbf0ef;
+      }
+
+      i {
+        color: #E43D30;
+        font-size: 1.1vw;
+      }
+    }
+  }
+}
+
+.blog-grid {
+  flex: 1;
+  display: grid;
+  grid-template-columns: repeat(2, 24vw);
+  gap: 2.2vw;
+}
+
+.blog-card {
+  display: flex;
+  flex-direction: column;
+  border-radius: .6vw;
+  overflow: hidden;
+  background-color: #e9eaea;
+  color: #000000;
+  text-decoration: none;
+  transition: transform .2s ease, box-shadow .2s ease;
+
+  &:hover {
+    transform: translateY(-.3vw);
+    box-shadow: 0 .6vw 1.5vw rgba(0, 0, 0, .12);
+  }
+
+  .blog-card-image {
+    height: 15.5vw;
+    background-color: #34424b;
+
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .blog-card-body {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 1.8vw 2vw 2vw;
+  }
+
+  .blog-card-category {
+    font-size: .9vw;
+    text-transform: uppercase;
+    margin-bottom: 1.2vw;
+    min-height: 1vw;
+  }
+
+  .blog-card-title {
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 1.15;
+    margin-bottom: 2.5vw;
+  }
+
+  .blog-card-excerpt {
+    font-size: 1.4vw;
+    line-height: 1.2;
+    flex: 1;
+
+    ::ng-deep p {
+      margin: 0;
+    }
+  }
+}
+
+.blog-link {
+  align-self: flex-end;
+  color: #E43D30;
+  font-size: .9vw;
+  margin-top: 1.2vw;
+  display: inline-flex;
+  align-items: center;
+  gap: .5vw;
+
+  i {
+    font-size: 1.2vw;
+  }
+}
+
+.blog-empty {
+  grid-column: 1 / -1;
+  font-size: 1.4vw;
+}
+
+@media (max-width: 768px) {
+  .blog-page {
+    margin-top: 0;
+    padding-top: 11vw;
+  }
+
+  /* En móvil solo se muestra el texto del hero, centrado */
+  .blog-hero {
+    min-height: auto;
+
+    .blog-hero-text {
+      width: 100%;
+      padding: 9vw 8vw 10vw;
+      text-align: center;
+    }
+
+    .blog-hero-title {
+      font-size: 6.5vw;
+      margin-bottom: 3vw;
+    }
+
+    .blog-hero-subtitle {
+      font-size: 4.6vw;
+    }
+
+    .blog-hero-image {
+      display: none;
+    }
+  }
+
+  .blog-content {
+    flex-direction: column;
+    padding: 10vw 11vw 14vw;
+    gap: 0;
+  }
+
+  /* En móvil se oculta el índice de categorías */
+  .blog-index {
+    display: none;
+  }
+
+  .blog-grid {
+    width: 100%;
+    grid-template-columns: 1fr;
+    gap: 7vw;
+  }
+
+  .blog-card {
+    border-radius: 2vw;
+
+    .blog-card-image {
+      height: 50vw;
+    }
+
+    .blog-card-body {
+      padding: 6vw;
+    }
+
+    .blog-card-category {
+      font-size: 3vw;
+      margin-bottom: 3vw;
+    }
+
+    .blog-card-title {
+      font-size: 6vw;
+      margin-bottom: 5vw;
+    }
+
+    .blog-card-excerpt {
+      font-size: 4.2vw;
+    }
+  }
+
+  .blog-link {
+    font-size: 3.2vw;
+    margin-top: 4vw;
+    gap: 1.5vw;
+
+    i {
+      font-size: 4vw;
+    }
+  }
+
+  .blog-empty {
+    font-size: 4.5vw;
+  }
+}

@@ -3,7 +3,8 @@
     "title1": "ABOUT",
     "title2": "FEATURED WORK",
     "title3": "SERVICES",
-    "title4": "CONTACT"
+    "title4": "CONTACT",
+    "title5": "BLOG"
   },
   "section1": {
     "title": "We are a creative cluster, shaping brands through strategic thinking, innovative design, and purposeful storytelling.",
@@ -113,7 +114,7 @@
           },
           {
             "quote": "We feel valued, as they show genuine interest in our business.",
-            "description": "We developed the branding for Sidereo Arquitectura, an emerging architecture firm that found in us the ideal partner to bring to life the corporate identity that truly reflects their architectural style.",
+            "description": "We implement performance marketing campaigns focused on generating high-quality leads, offering a comprehensive solution to increase their closing rate through smart investment in digital media.",
             "author": "Andrea Corral",
             "position": "Communications Officer at AP Futuro",
             "status": false
@@ -125,13 +126,13 @@
         "testimonial3": [
           {
             "quote": "It’s amazing to work with them due to their ideas, strategy, and implementation.",
-            "description": "We developed the branding for Sidereo Arquitectura, an emerging architecture firm that found in us the ideal partner to bring to life the corporate identity that truly reflects their architectural style.",
+            "description": "We deliver award-winning global campaigns with creativity and efficiency through strong partnerships with entertainment organizations.",
             "author": "Anonymous",
             "position": "Head of Ad & Sales, Entertainment Organization",
             "status": false
           },{
             "quote": "ConceptHaus excels at understanding client needs, thanks to their large, skilled team.",
-            "description": "We developed the branding for Sidereo Arquitectura, an emerging architecture firm that found in us the ideal partner to bring to life the corporate identity that truly reflects their architectural style.",
+            "description": "We developed the branding for Sidero Arquitectura, an emerging architecture firm that found in us the ideal partner to bring to life the corporate identity they envisioned to reflect their architectural style.",
             "author": "Rogelio Garza",
             "position": "Architect at Sidéreo Arquitectura",
             "status": false
@@ -295,6 +296,18 @@
   "thanksTitle": "At <strong>ConceptHaus</strong>, ideas flow and <br> creativity never switches off.",
   "thanksTitle2": "You'll soon get an email from our consulting team to schedule a call.",
   "thanksTitle3": "<strong>In the meantime, stay plugged in:</strong> ",
-  "titleThankYouHeader": "Thanks for<br><strong>making contact!</strong>"
+  "titleThankYouHeader": "Thanks for<br><strong>making contact!</strong>",
+  "blog": {
+    "heroTitle": "Accenting <strong>everything.</strong>",
+    "heroSubtitle": "Ideas, trends and strategies<br>for brands that move forward.",
+    "indexTitle": "Blog index",
+    "allCategories": "All",
+    "readMore": "Read more",
+    "readArticle": "Read article",
+    "youMayAlsoLike": "You may also like",
+    "readingTime": "min read",
+    "noPosts": "There are no articles in this category yet.",
+    "breadcrumb": "BLOG"
+  }
 
 }

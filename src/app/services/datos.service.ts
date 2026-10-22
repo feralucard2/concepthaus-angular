@@ -9,8 +9,9 @@ import { DataInterface, RootInterface } from '../interfaces/dataInterface';
   providedIn: 'root'
 })
 export class DatosService {
-  private jsonUrl = 'assets/data/eng.json';
-  private jsonUrlEsp = 'assets/data/esp.json';
+  private readonly cacheBuster = Date.now();
+  private jsonUrl = `assets/data/eng.json?v=${this.cacheBuster}`;
+  private jsonUrlEsp = `assets/data/esp.json?v=${this.cacheBuster}`;
 
   constructor(private http: HttpClient) { }
 

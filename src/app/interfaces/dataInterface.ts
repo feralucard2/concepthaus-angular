@@ -24,6 +24,7 @@ export interface RootInterface {
   thanksTitle2: string;
   thanksTitle3: string;
   titleThankYouHeader: string;
+  blog: BlogTexts;
 }
 
 export interface Menus {
@@ -31,6 +32,7 @@ export interface Menus {
   title2: string;
   title3: string;
   title4: string;
+  title5: string;
 }
 
 export interface Section1 {
@@ -111,3 +113,16 @@ export interface Footer {
   text3: string;
 }
 
+
+export interface BlogTexts {
+  heroTitle: string;
+  heroSubtitle: string;
+  indexTitle: string;
+  allCategories: string;
+  readMore: string;
+  readArticle: string;
+  youMayAlsoLike: string;
+  readingTime: string;
+  noPosts: string;
+  breadcrumb: string;
+}
